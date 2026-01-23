@@ -17,55 +17,27 @@
     background: #000;
     margin: 0 auto;
     border-radius: 10px;
-}
 
-.luces{
-    position: relative;
-    width: 60px;
-    height: 60px;
-    margin: 0 auto;
-    border-radius: 50%;
-    cursor: pointer;
-    opacity: 0.8;
-}
-
-.luz-verde{
-    background-color: green;
-    top: 20px;
-}
-
-.luz-amarilla{
-    background-color: yellow;
-    top: 35px;
-    
-}
-
-.luz-roja{
-    background-color: red;
-    top: 55px;
-}
-
-.luces.active {
-    opacity: 1;
-    box-shadow: 0 0 20px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .light {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin: 10px auto;
     opacity: 0.3;
     cursor: pointer;
     transition: 0.3s;
 }
 
 .red { background-color: red; }
-.yellow { background-color: orange; } /* o yellow si prefieres */
+.yellow { background-color: orange; }
 .green { background-color: green; }
 
 .light.active {
     opacity: 1;
-    box-shadow: 0 0 25px 5px currentColor;
+    box-shadow: 0 0 25px 8px currentColor;
 }
-
